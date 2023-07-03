@@ -21,3 +21,7 @@ void PrintArr3Chars(string[] array)
     }
     Console.WriteLine("]");
 }
+
+string[] str = ReadArrStr("Введите массив строк через запятую: ");
+PrintArr(str);
+PrintArr3Chars(str);
